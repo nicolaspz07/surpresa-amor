@@ -5,11 +5,11 @@ const dataInicioNamoro = new Date('2024-09-07 23:00:00'); // Exemplo: 25 de Outu
 
 // Coloque o nome das suas fotos aqui
 const listaDeFotos = [
-    'imagens/foto1.jpg',
-    'imagens/foto2.jpg',
-    'imagens/foto3.jpg',
-    'imagens/foto4.jpg',
-    'imagens/foto5.jpg',
+    'foto/foto1.jpg',
+    'foto/foto2.jpg',
+    'foto/foto3.jpg',
+    'foto/foto4.jpg',
+    'foto/foto5.jpg',
 ];
 
 
@@ -73,4 +73,5 @@ function iniciarSlideshow() {
         }
     }
 }
+
 
