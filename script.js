@@ -1,16 +1,17 @@
+
 // --- CONFIGURAÇÃO IMPORTANTE ---
 // Coloque a data de início do namoro aqui no formato: ANO-MÊS-DIA
 const dataInicioNamoro = new Date('2024-09-07 23:00:00'); // Exemplo: 25 de Outubro de 2023 às 20h
 
 // Coloque o nome das suas fotos aqui
 const listaDeFotos = [
-    'imagens/foto1.jpg',
-    'imagens/foto2.jpg',
-    'imagens/foto3.jpg',
-    'imagens/foto4.jpg',
-    'imagens/foto5.jpg',
-    // Adicione quantas fotos quiser!
+    'guirao/imagens/foto1.jpg',
+    'guirao/imagens/foto2.jpg',
+    'guirao/imagens/foto3.jpg',
+    'guirao/imagens/foto4.jpg',
+    'guirao/imagens/foto5.jpg',
 ];
+
 
 // --- FIM DA CONFIGURAÇÃO ---
 
