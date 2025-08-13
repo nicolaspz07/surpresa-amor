@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fce4ec; /* Um rosa bem clarinho */
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Evita barras de rolagem */
+    text-align: center;
+}
+
+#envelope {
+    width: 200px;
+    height: 150px;
+    background-color: #ff80ab; /* Cor do envelope */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+#envelope:hover {
+    transform: scale(1.1);
+}
+
+#envelope p {
+    color: white;
+    font-weight: bold;
+}
+
+#conteudo-surpresa {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    max-width: 90%;
+}
+
+#container-fotos {
+    margin: 20px 0;
+}
+
+#foto-casal {
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh; /* Limita a altura da foto em celulares */
+    border-radius: 10px;
+    border: 5px solid #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#contador h2 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+    color: #c2185b; /* Um rosa mais escuro */
+}
+
+#tempo-juntos {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.mensagem-final {
+    margin-top: 20px;
+    font-style: italic;
+    color: #e91e63;
+}
+
+.escondido {
+    display: none;
+}
